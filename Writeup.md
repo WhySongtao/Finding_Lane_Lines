@@ -1,0 +1,4 @@
+Reflection
+1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+My pipeline consists of 5 steps. First, I converted the image to grayscale because cv2.Canny() only
+takes 8 bit image as input. Second, I applied guassian filter on the image to smooth any noise points. Third, I applied canny function to find out all the edge in the picture. Fourth, because lane lines will only appear in certain area, I masked the original image to find out only the edge of the lane line. Fifth, in order to draw lines on the image, I used hough transform function to find out lines in the image. Sixth, I combined the line image with original image.
