@@ -49,7 +49,7 @@ I have learnt that a point and a slope can define a line. Also, I can use the si
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when there are other edges appearing on the road. This is mess up the centre point and the slope, causing the lane line marker to be in the wrong position.  
+One potential shortcoming would be what would happen when there are other edges appearing on the road. This can mess up the centre point and the slope, causing the lane line marker to be in the wrong position.  
 
 Another shortcoming could be ...
 
