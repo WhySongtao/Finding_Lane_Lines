@@ -49,13 +49,13 @@ I have learnt that a point and a slope can define a line. Also, I can use the si
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when there are other edges appearing on the road. This can mess up the centre point and the slope, causing the lane line marker to be in the wrong position.  
+One potential shortcoming would be what would happen when there are other edges appearing on the road(such as cracks and curbs). This can mess up the centre point and the slope, causing the lane line marker to be in the wrong position.  
 
-Another shortcoming could be ...
+Another shortcoming could be in my system, if there is no line detected in the image, it will not draw any line. This could be a 
+safety problem in reality.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to use machine learning to learn which one is the lane line.
 
-Another potential improvement could be to ...
